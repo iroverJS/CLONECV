@@ -1,40 +1,40 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="16" x="123" y="104">
+  <block type="oled_cleardisplay" id="1" x="123" y="104">
     <next>
-      <block type="oled_setcursor" id="25" inline="true">
+      <block type="oled_setcursor" id="2" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="81">
+          <block type="math_number" id="3">
             <field name="NUM">0</field>
           </block>
         </value>
         <value name="STARTY">
-          <block type="math_number" id="88">
+          <block type="math_number" id="4">
             <field name="NUM">10</field>
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="103">
+          <block type="oled_drawtext" id="5">
             <field name="TEXT">4+(3*2)=</field>
             <next>
-              <block type="oled_drawnumber" id="67" inline="true">
+              <block type="oled_drawnumber" id="6" inline="true">
                 <value name="NUMBER">
-                  <block type="math_arithmetic" id="74" inline="true">
+                  <block type="math_arithmetic" id="7" inline="true">
                     <field name="OP">ADD</field>
                     <value name="A">
-                      <block type="math_number" id="116">
+                      <block type="math_number" id="8">
                         <field name="NUM">4</field>
                       </block>
                     </value>
                     <value name="B">
-                      <block type="math_arithmetic" id="130" inline="true">
+                      <block type="math_arithmetic" id="9" inline="true">
                         <field name="OP">MULTIPLY</field>
                         <value name="A">
-                          <block type="math_number" id="155">
+                          <block type="math_number" id="10">
                             <field name="NUM">3</field>
                           </block>
                         </value>
                         <value name="B">
-                          <block type="math_number" id="168">
+                          <block type="math_number" id="11">
                             <field name="NUM">2</field>
                           </block>
                         </value>
