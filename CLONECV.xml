@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="5" disabled="true">
-            <field name="TEXT">10089783600+2000</field>
+            <field name="TEXT">10089783600+20</field>
             <next>
               <block type="oled_drawnumber" id="6" inline="true">
                 <value name="NUMBER">
@@ -27,7 +27,7 @@
                     </value>
                     <value name="B">
                       <block type="math_number" id="18">
-                        <field name="NUM">2000</field>
+                        <field name="NUM">20</field>
                       </block>
                     </value>
                   </block>
