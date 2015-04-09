@@ -19,15 +19,15 @@
               <block type="oled_drawnumber" id="67" inline="true">
                 <value name="NUMBER">
                   <block type="math_arithmetic" id="74" inline="true">
-                    <field name="OP">ADD</field>
+                    <field name="OP">DIVIDE</field>
                     <value name="A">
                       <block type="math_number" id="116">
-                        <field name="NUM">4</field>
+                        <field name="NUM">545</field>
                       </block>
                     </value>
                     <value name="B">
                       <block type="math_number" id="123">
-                        <field name="NUM">2</field>
+                        <field name="NUM">7</field>
                       </block>
                     </value>
                   </block>
